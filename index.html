@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ágazati alapvizsgára ismétlés – Pálinkák</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/egyedi.css" />
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- FŐCÍM -->
+
+      <div class="row">
+        <div class="col-sm-12 kartya mb-3">
+          <div class="mt-2 mb-1 p-5 bg-primary text-white rounded">
+            <h1 id="focim">REACT gyakorlás: Komponensekre bontás</h1>
+
+            <p class="mb-0">Téma: Pálinkák és gyümölcspárlatok</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BEVEZETŐ -->
+
+      <div class="row mb-2">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">Mit érdemes tudni a pálinkáról?</div>
+
+            <div class="card-body">
+              <p>
+                A pálinka a magyar gasztronómiai és kulturális hagyományok egyik
+                ismert itala. Készítése során erjesztett gyümölcsből lepárlással
+                állítanak elő gyümölcspárlatot.
+              </p>
+
+              <p>
+                A pálinka készítésének egyik fontos alapanyaga a megfelelő
+                minőségű, érett gyümölcs. Gyakori alapanyag például az alma, a
+                szilva, a körte, a meggy és a kajszibarack.
+              </p>
+
+              <p class="mb-0">
+                A jó minőségű pálinka készítésénél az alapanyag minősége és a
+                megfelelő technológia egyaránt fontos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LISTÁK -->
+
+      <div class="row mb-2">
+        <div class="col-sm-4 kartya">
+          <h2>Gyakori alapanyagok</h2>
+
+          <ul class="list-group">
+            <li class="list-group-item">Alma</li>
+
+            <li class="list-group-item">Körte</li>
+
+            <li class="list-group-item">Szilva</li>
+
+            <li class="list-group-item">Meggy</li>
+
+            <li class="list-group-item">Kajszibarack</li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4 kartya mb-2">
+          <h2>Népszerű pálinkák</h2>
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Szilvapálinka</li>
+
+            <li class="list-group-item">Barackpálinka</li>
+
+            <li class="list-group-item">Körtepálinka</li>
+
+            <li class="list-group-item">Almapálinka</li>
+
+            <li class="list-group-item">Birsalmapálinka</li>
+          </ol>
+        </div>
+
+        <div class="col-sm-4 kartya mb-2">
+          <h2>Íz- és illatjegyek</h2>
+
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Gyümölcsös</li>
+
+            <li class="list-group-item">Illatos</li>
+
+            <li class="list-group-item">Érett gyümölcsre jellemző</li>
+
+            <li class="list-group-item">Harmonikus</li>
+
+            <li class="list-group-item">Tiszta lecsengésű</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- TÁBLÁZAT -->
+
+      <div class="row mb-1" id="mibolLehetMegPalinka">
+        <div class="col-sm-12 kartya mb-3">
+          <h2>Miből készülhet gyümölcspárlat?</h2>
+
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td>Alma</td>
+
+                <td>Szilva</td>
+
+                <td>Körte</td>
+              </tr>
+
+              <tr>
+                <td>Meggy</td>
+
+                <td>Kajszi</td>
+
+                <td>Birsalma</td>
+              </tr>
+
+              <tr>
+                <td>Cseresznye</td>
+
+                <td>Őszibarack</td>
+
+                <td>Szőlő</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- KÉPEK -->
+
+      <div class="row mb-1">
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Banán</h2>
+
+          <img src="./images/Banán.jpg" class="img-fluid" alt="Banán" />
+
+          <p class="mt-2">
+            A banán trópusi gyümölcs, amely Magyarországon nem jellemző
+            pálinkaalapanyag.
+          </p>
+        </div>
+
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Birsalma</h2>
+
+          <img src="./images/birsalma.jpg" class="img-fluid" alt="Birsalma" />
+
+          <p class="mt-2">
+            A birsalma jellegzetes illatú gyümölcs, amelyből gyümölcspárlat is
+            készíthető.
+          </p>
+        </div>
+
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Mogyoró</h2>
+
+          <img src="./images/mogyoro.jpg" class="img-fluid" alt="Mogyoró" />
+
+          <p class="mt-2">
+            A mogyoró olajos mag, ezért nem a hagyományos gyümölcspárlatok
+            alapanyagai közé tartozik.
+          </p>
+        </div>
+
+        <div class="col-sm-3 col-md-6 col-lg-3 kartya mb-3 h-100">
+          <h2>Gránátalma</h2>
+
+          <img
+            src="./images/granatalma.jpg"
+            class="img-fluid"
+            alt="Gránátalma"
+          />
+
+          <p class="mt-2">
+            A gránátalma gyümölcs, jellegzetes édes-savanykás ízzel és sok apró
+            maggal.
+          </p>
+        </div>
+      </div>
+
+      <!-- FONTOS TUDNIVALÓK -->
+
+      <div class="row">
+        <div class="col-sm-12 kartya mb-3">
+          <div class="card">
+            <div class="card-header">Amit érdemes megjegyezni</div>
+
+            <div class="card-body">
+              <ul>
+                <li>A pálinka gyümölcsből készített párlat.</li>
+
+                <li>
+                  Az alapanyag minősége jelentősen befolyásolja a késztermék
+                  tulajdonságait.
+                </li>
+
+                <li>
+                  A gyümölcsöt először elő kell készíteni és erjeszteni kell.
+                </li>
+
+                <li>
+                  Az erjesztett gyümölcscefréből lepárlással készül a párlat.
+                </li>
+
+                <li>
+                  A pálinka megnevezés használatát jogszabály szabályozza.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LÁBLÉC -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 kartya mb-3">
+          <p class="text-center">
+            <b>Az oldalt készítette: </b>
+
+            <i>Gipsz Jakab</i>
+          </p>
+
+          <p style="text-align: center">
+            <span style="font-weight: bold"> Készítés dátuma: </span>
+
+            <span class="dolt"> 2026.09.27. </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
